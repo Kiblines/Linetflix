@@ -1,6 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import lines from "/Logo_lines.svg";
+import Navbar from "./components/Navbar.jsx";
 import "./App.css";
 
 function App() {
@@ -8,6 +9,9 @@ function App() {
 
   return (
     <div className="App">
+      <div>
+        <Navbar></Navbar>
+      </div>
       <div>
         <a href="https://capscom.fr" target="_blank">
           <img src="/Logo_lines.svg" className="logo" alt="Lines logo" />
